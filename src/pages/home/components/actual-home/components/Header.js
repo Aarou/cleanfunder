@@ -5,11 +5,12 @@ import './stylesheets/Header.css'
 function Header() {
     return(
         <div class="header">
-	    <header>
-		<h1>Cleanfunder</h1>
-		<div id="space-one"></div>
-           </header>
-	</div>
+	        <header>
+		        <h1 style={{"padding-right": "200px;"}}>&nbsp;&nbsp;cleanfunder</h1>
+                <button>Sign Up</button>
+                <button>Login</button>
+            </header>
+	    </div>
     )
 }
 

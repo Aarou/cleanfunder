@@ -3,9 +3,36 @@ html {
    margin: 0;
 }
 
-.header {
+.header header {
    border-bottom: 1px groove lightgrey;
-   height: 100px;
+   height: 50px;
    width: 100%;
    color: blue;
+   font-family: 'Times New Roman', Times, serif;
+   display: flex;
+   flex-direction: row;
+}
+
+.header h1 {
+   transform: translate(0%, -150%);
+   padding-right: 1300px;
+}
+
+.header button {
+   color: #444444;
+   background: #F3F3F3;
+   border: 1px #DADADA solid;
+   padding: 5px 10px;
+   border-radius: 1px;
+   font-weight: bold;
+   font-size: 9pt;
+   outline: none;
+   width: 100px;
+}
+
+.header button:hover {
+   border: 1px #C6C6C6 solid;
+   box-shadow: 1px 1px 1px #EAEAEA;
+   color: #333333;
+   background: #F7F7F7;
 }
